@@ -1,0 +1,206 @@
+#title {
+  text-align: left;
+}
+
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Navagation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+/* I also used 10% for the paddding and got the same look. What is the benifit of rem vs. percentage? -*/
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.nav-item {
+  padding: 8px 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  font-weight: 300;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.main-image {
+  width: 60%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 30%;
+  /* z-index: 1; */
+}
+
+/* Headings */
+.big-heading {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Sections */
+
+.color-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Features Section */
+#features {
+  position: relative;
+  /* z-index: 2; */
+
+  padding: 7% 15%;
+  /* margin-top: 125px;
+  margin-bottom: 125px; */
+  /* I initially styled around this div with margin-top and bottom to
+  create more space. However when I started using the z-index a section of the
+  cell phone would not go behind the div. Since I created more space around
+  the element (aka the div) the z-index didn't work on the margins. When I changed it to
+  padding which styled the space between the content and the border then the
+  z-index worked correctly. */
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.icon {
+  color: #ef8172;
+  font-size: 3.5rem;
+  /* padding: 0px 0px 15px 0px; */
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.phrases {
+  padding: 5%;
+  /* padding-left: 15px; */
+  /* padding-right: 15px; */
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 4rem;
+  /* 3% was also used here as an option - still would like to know what changes if % vs. rems vs. px are used */
+}
+
+.press-images {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing  */
+#pricing {
+  padding: 100px;
+
+}
+
+.price-text . {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Call to Action */
+#cta {
+  font-family: 'Montserrat';
+  font-weight: bold;
+
+}
+
+#cta h3 {
+  font-size: 3.5rem;
+  padding: 3% 15% 0 15%;
+}
+
+.cta-column {
+  padding: 3% 2% 5% 3%;
+}
+
+/* Footer */
+#footer {
+  background-color: #fff;
+
+}
+
+.footer-column {
+  padding: 7% 15%;
+}
+
+.footer-icon {
+  padding: 2% 2% 4% 2%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+  text-align: center;
+  }
+
+  .main-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
