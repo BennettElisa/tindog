@@ -1,10 +1,14 @@
 # Dogs Need Love 🐾 ❤️
 
+![img](images/demo-preview.png)
+
+Demo Site: [tindog](https://tindog-chi-inky.vercel.app/)
+
 **Technologies:** HTML, CSS and Bootstrap combined with Font Awesome Icons and Google Fonts.
 
-**Summary:** I created a beautiful startup landing webpage for an imaginary business called **tindog** that matches dogs and their owners.
+**Summary:** Startup landing webpage for business called **tindog** to match dogs and their owners.
 
-This landing page is broken up into 6 stylish sections that enhances the users expereinces and ability to navigate the site.
+The landing page is broken up into 6 stylish sections to enhance the user expereince and ability to navigate the site.
 
     - Title Section
     - Feature Section
