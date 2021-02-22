@@ -2,7 +2,7 @@
 
 ![img](images/demo-preview.png)
 
-Demo Site: [tindog](https://tindog-chi-inky.vercel.app/)
+**Demo Site:** [tindog](https://tindog-chi-inky.vercel.app/)
 
 **Technologies:** HTML, CSS and Bootstrap combined with Font Awesome Icons and Google Fonts.
 
