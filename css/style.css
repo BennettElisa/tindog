@@ -3,12 +3,17 @@
 }
 
 body {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat';
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
   font-weight: bold;
 }
 
@@ -27,7 +32,7 @@ p {
 
 /* I also used 10% for the paddding and got the same look. What is the benifit of rem vs. percentage? -*/
 .navbar-brand {
-  font-family: 'Ubuntu';
+  font-family: "Ubuntu";
   font-size: 2rem;
   font-weight: 700;
 }
@@ -38,7 +43,7 @@ p {
 
 .nav-link {
   font-size: 1.2rem;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: 300;
 }
 
@@ -58,7 +63,7 @@ p {
 
 /* Headings */
 .big-heading {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: 900;
   font-size: 3.5rem;
   line-height: 1.5;
@@ -69,10 +74,10 @@ p {
   line-height: 1.5;
 }
 
-/* Sections */
+/* Sections #ff4c68 fa744f */
 
 .color-section {
-  background-color: #ff4c68;
+  background-color: #12cad6;
   color: #fff;
 }
 
@@ -101,14 +106,14 @@ p {
 }
 
 .icon {
-  color: #ef8172;
+  color: #f40552;
   font-size: 3.5rem;
   /* padding: 0px 0px 15px 0px; */
   margin-bottom: 1rem;
 }
 
 .icon:hover {
-  color: #ff4c68;
+  color: #fc7978;
 }
 
 .phrases {
@@ -119,7 +124,7 @@ p {
 
 /* Testimonials */
 #testimonials {
-  background-color: #ef8172;
+  background-color: #76dbd1;
 }
 
 .testimonial-text {
@@ -139,7 +144,7 @@ p {
 
 /* Press */
 #press {
-  background-color: #ef8172;
+  background-color: #76dbd1;
   padding-bottom: 4rem;
   /* 3% was also used here as an option - still would like to know what changes if % vs. rems vs. px are used */
 }
@@ -152,7 +157,6 @@ p {
 /* Pricing  */
 #pricing {
   padding: 100px;
-
 }
 
 .price-text . {
@@ -166,9 +170,8 @@ p {
 
 /* Call to Action */
 #cta {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: bold;
-
 }
 
 #cta h3 {
@@ -183,7 +186,6 @@ p {
 /* Footer */
 #footer {
   background-color: #fff;
-
 }
 
 .footer-column {
@@ -196,7 +198,7 @@ p {
 
 @media (max-width: 1028px) {
   #title {
-  text-align: center;
+    text-align: center;
   }
 
   .main-image {
