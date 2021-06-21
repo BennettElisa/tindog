@@ -2,9 +2,11 @@
 
 ![image](images/demo-img.png)
 
-**Demo Site:** [tindog](https://tindog-chi-inky.vercel.app/)
+**Demo Site:** [tindog](http://tindogsenor.com.s3-website-us-east-1.amazonaws.com/)
 
-**Technologies:** HTML, CSS and Bootstrap combined with Font Awesome Icons and Google Fonts.
+**Technologies:**
+
+Utilized AWS S3 to deploy a business startup landing page built with HTML5, CSS3, Bootstrap and JavaScript to showcase this tool.
 
 **Summary:** Startup landing webpage for business called **tindog** to match dogs and their owners.
 
